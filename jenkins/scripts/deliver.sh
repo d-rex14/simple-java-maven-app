@@ -26,4 +26,5 @@ set -x
 pwd
 whoami
 ls -la target
+env
 java -jar ./target/${NAME}-${VERSION}.jar
